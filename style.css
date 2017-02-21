@@ -1,24 +1,42 @@
-.header img {
-    float: center;
-    width: 100px;
-    height: 100px;
-    background: skyblue;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'arial';
+    background-color: cornflowerblue;
 }
-.header h1 {
-    position: relative;
-    top: 18px;
-    left: 10px;
-}
-#body {
-    width: 600px;
-    background-color: slategray;
+.wrap {
+    width: 410px;
     overflow: hidden;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 180px;
     padding: 20px;
+    background: silver;
+    border: 1px solid black;
+    border-radius: 5px;
 }
-footer {
-    width: 100%;
+.wrap h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.wrap input {
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.wrap .btn-login {
+    padding: 5px;
+    width: 412px;
+    height: 40px;
+    background-color: cadetblue;
+    color: snow;
+    border-radius: 3px;
+    border: 0;
+    font-size: 18px;
+}
+.footer {
     height: 50px;
     background-color: #CCC;
  }
@@ -31,7 +49,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 15px 0;
-    margin-top: 360px;
+    margin-top: 250px;
 }
 .box-shadow {
     box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
