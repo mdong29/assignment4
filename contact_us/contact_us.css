@@ -1,0 +1,35 @@
+.main-header h1 {
+    text-align:center;
+}
+
+.contact-form {
+    height: 565px;
+}
+
+.sidebar-contact-us {
+    height: 565px;
+}
+
+.sidebar-contact-us b{
+    font-size: 20px;
+    font-style: underline;
+}
+
+.sidebar-links {
+    list-style-type: none;
+}
+
+.content-top {
+    background-color:transparent;
+}
+
+.content-middle {
+    float: right;
+    margin-right: 222px;
+}
+
+#message {
+    max-width:675px;
+    width:100%;
+    height:400px;
+}
